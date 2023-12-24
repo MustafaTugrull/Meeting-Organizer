@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: #007bff;
+}
+
+
+#addMeetingSection {
+    text-align: center;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#addMeetingSection form {
+    margin-top: 20px;
+}
+
+
+#meetingListSection {
+    text-align: center;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#meetingList {
+    list-style: none;
+    padding: 0;
+}
+
+#meetingList li {
+    border: 1px solid #ced4da;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+#updateDeleteSection {
+    text-align: center;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#meetingSelect {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#updateDeleteForm {
+    margin-top: 20px;
+}
+
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-danger, .btn-outline-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-warning, .btn-outline-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-primary, .btn-outline-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success, .btn-outline-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+@media (max-width: 576px) {
+    #meetingListSection button,
+    #updateDeleteSection button {
+        margin-top: 10px;
+    }
+}
